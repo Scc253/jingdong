@@ -1,0 +1,42 @@
+header>#head{width: 90%;height: 40px;margin: 0 auto;}
+#head>.glyphicon-menu-left{top: 2.5vw;font-size: 20px;}
+#head>.span2{display: block; text-align: center;font-size: 15px; margin: -3vw auto;}
+.inputbox{width: 90%;height: 35vw;margin: 0 auto;}
+.inputbox p{border: 2px solid #efefef;height: 15vw;background: #F5F5F5;border-top: none;border-left: none;border-right: none;}
+.inputbox p label>.phone{
+display: inline-block;
+font-size: 16px;
+width: 5vw;
+line-height: 15vw;
+font-family: "微软雅黑";
+margin: 0 2vw;
+}
+.inputbox p label>.glyphicon-menu-down{display: inline-block;font-size: 16px;width: 3vw;
+    height: .06rem;margin-left: 2vw;}
+.inputbox p>.input1{display: inline-block;width: 80%;margin-left: 2vw;background-color: #F5F5F5;}
+.inputbox p>.input2{display: inline-block; width: 70%;line-height: 15vw;background-color: #F5F5F5;}
+.inputbox p button{
+border: none;outline: none;
+border-left: 1.5px solid #ccc;
+display: inline-block;width: 28%;height: 10vw;
+color: #848689;font-size: 12px;
+line-height: 10vw;
+background-color: #F5F5F5;}
+header>.but{
+display: block; border: 1px solid red; 
+width: 90%;height: 12vw;
+font-size: 16px;
+text-align: center;
+line-height: 12vw;
+border-radius: 30px;
+margin: 2vw auto;
+}
+header>.but1{border: none; color: #FFFFFF;background-image: linear-gradient(90deg,#fab3b3,#ffbcb3 73%,#ffcaba);}
+header>.but2{color: #F10000;background-color: #FFFFFF;}
+header>.font-span{width: 90%;height: 10vw; margin: 0 auto;line-height: 10vw;color: rgba(0,0,0,0.4);color:14px;}
+header>.font-span>.login{float: left;}
+header>.font-span>.register{float: right;}
+header>.text{color: rgba(0,0,0,.2);font-size: 12px;text-align: center; margin: 15vw auto;}
+header>.font-a{width: 90%;height: 30vw;margin: 0 auto;}
+header>.font-a>a img{width: 15vw;height: 15vw;margin-left: 20vw;}
+header>.policy_tip{width: 90%;margin: 0 auto;font-size: 13px;color: rgba(0,0,0,0.3);text-align: center;}

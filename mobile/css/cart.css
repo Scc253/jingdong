@@ -1,0 +1,152 @@
+
+body{
+	background-color: #F5F5F5;
+}
+.header{
+	background-color: #EB2E15;
+}
+.headerTitle,.headerRight{
+	color: #fff;
+}
+
+
+.cart-block{
+	display: flex;
+	padding: 0.15rem 0.12rem 0;
+	background-color: #fff;
+}
+.cart-goods-img{
+	width: 0.8rem;
+	height: 0.8rem;
+	margin: 0 0.1rem;
+	border-radius: 0.05rem;
+}
+.cart-goods-info{
+	border-bottom: 1px solid #F1F1F1;
+	width: 65%;
+	padding-bottom: 0.17rem;
+}
+.cart-goods-name{
+	display: inline-block;
+	white-space: nowrap; 
+	width: 100%; 
+	overflow: hidden;
+	text-overflow:ellipsis;
+	color: #1D1D1D;
+}
+.cart-goods-sku{
+	color: #C2C2C2;
+	font-size: 0.11rem;
+}
+.price-wrap{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 0.17rem;
+}
+.price-wrap>span{
+	color: #EB2E15;
+	font-size: 0.15rem;
+}
+
+
+.checkbox-wrap{
+	position: relative;
+	top: -0.06rem;
+	display: flex;
+	align-items: center;
+}
+.total-wrap .checkbox-wrap{
+	top: 0;
+	margin-right: 0.1rem;
+}
+.tick{
+	width: 0.2rem;
+}
+.checkbox{
+	position: absolute;
+	width: 0.2rem;
+	height: 0.2rem;
+	border-radius: 100%;
+	opacity: 0;
+}
+.cart-goods-sku{
+	color: #C2C2C2;
+	font-size: 0.11rem;
+}
+
+
+.num-wrap{
+	display: flex;
+	align-items: center;
+}
+.num-wrap img{
+	width: 0.26rem;
+}
+.num-input{
+	width: 0.3rem;
+	border: 0;
+	text-align: center;
+	font-size: 0.15rem;
+}
+
+
+.total-wrap{
+	position: fixed;
+	width: 100%;
+	background-color: #fff;
+	bottom: 0.5rem;
+	box-shadow:0px -1px 0px rgba(235,235,235,1);
+}
+.total-wrap{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.04rem 0.12rem;
+}
+.total-left{
+	display: flex;
+	align-items: center;
+	color: #1A1A1A;
+	font-size: 0.13rem;
+}
+.total-right{
+	display: flex;
+	align-items: center;
+}
+.total-btn{
+	width: 1.16rem;
+	line-height: .42rem;
+	border: 0;
+	background-color: #EB2E15;
+	font-size: 0.15rem;
+	color: #fff;
+	border-radius: 50rem;
+	margin-left: 0.09rem;
+}
+.total-right span{
+	color: #EF0F00;
+}
+.symbol,.integer{
+	font-size: 0.17rem;
+}
+.point{
+	font-size: 0.12rem;
+}
+.total-right button span{
+	color: #fff;
+}
+.delete-btn{
+	display: none;
+}
+footer{
+	position: fixed;
+	height:13vw;
+	width: 100%;
+	background-color: white;
+	bottom: 0;
+	box-shadow:0px 0px 5px 3px rgba(80,80,80,0.3);
+}
+footer>ul{height: 100%;}
+footer>ul>li{float: left;width: 20%;height: 100px;}
+footer>ul>li>img{width: 16vw;}

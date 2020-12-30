@@ -1,21 +1,35 @@
-window.onload=function(){
-    $(".but1").click(function() {
-        var name=document.getElementById('input1').value;
-        var pass=document.getElementById('input2').value;
-        console.log(name)
-        console.log(pass)
-        if(name!=""&&name!="undefined"&&pass!=""&&pass!="undefined"){
-            var url1 =location.href.slice(0,location.href.indexOf('moblie/')+7);
-            window.location.href =url1+"index.html?"+name;
-        }
-        else{
-            var str= "ÇëÊäÈëÃÜÂë»òÕËºÅ£¡"
-            alert(str);
-        }
-    })
-    $(".register").click(function() {
-        var url1 =location.href.slice(0,location.href.indexOf('moblie/')+7);
-        window.location.href =url1+"regist.html?";
-    })
-
-}
+$(function() {
+    $(".login-tab li").click(function() {
+        var index = $(this).index();
+        $(this).addClass("current").siblings().removeClass("current");
+        $(".mc").eq(index).show().siblings('.mc').hide();
+    });
+    $("#uname").blur(function() {
+    	if ($(this).val().length != 0) {
+    		 $(".login_uname label").addClass("yi");
+    	}
+    });
+    $("#password").blur(function() {
+    	if ($(this).val().length != 0) {
+    		 $(".login_password label").addClass("yi");
+    	}
+    });
+    $(".over").click(function() {
+    	if ($("#uname").val().length == 0) {
+    		alert("è¯·è¾“å…¥ç”¨æˆ·å");
+    	}
+    	else if ($("#password").val().length == 0) {
+    		alert("è¯·è¾“å…¥å¯†ç ");
+    	}
+    	else {
+    		alert("ç™»å½•æˆåŠŸ!");
+             // $("form").attr("action","index.html");
+			var name=document.getElementById('uname').value;
+			var pass=document.getElementById('password').value;
+			if(name!=""&&name!="undefined"&&pass!=""&&pass!="undefined"){
+				var url1 =location.href.slice(0,location.href.indexOf('web/')+4);
+				window.location.href =url1+"index.html?"+name;
+			}
+    	}
+    });
+});
